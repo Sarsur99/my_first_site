@@ -301,7 +301,7 @@ width: 100%;
 
 .main__content h1 {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #37f1e8 0%, #600f93 100%);
+    background-image: linear-gradient(to top, #fc0000 0%, #ff6868 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -313,7 +313,7 @@ width: 100%;
 
 .main__content h2{
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #059411 0%, #37f1e8 100%);
+    background-image: linear-gradient(to top, #6b0c0c 0%, #e67e1d 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -324,16 +324,14 @@ width: 100%;
 }
 
 .main__content p{
+
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 
 #main__img{
-    border: 1px solid rgb(12, 10, 10);	/* thickness and color of border */
-    border-radius: 4px;		/* edge rounding of border */
-    width: 200px;				/* width of image (px or % or auto) */
-    height: 300px;				/* height of image (px or % or auto) */
+    object-fit: fill;
 }
 
 .main__btn{
@@ -341,11 +339,6 @@ width: 100%;
 }
 
 .main__image--container{
-    text-align: center;
+
 }
 
-#main__img{
-    height: 35%;
-    width: 35%;
-}
->>>>>>> refs/remotes/origin/main
